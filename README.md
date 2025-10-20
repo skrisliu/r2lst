@@ -1,17 +1,38 @@
 # Resolution Revolution: A Physics-Guided Deep Learning Framework for Spatiotemporal Temperature Reconstruction
 
 
-## psu
+[Liu, Shengjie, Lu Zhang, and Siqin Wang. "Resolution revolution: A physics-guided deep learning framework for spatiotemporal temperature reconstruction." ICCV 2025 Workshop on Sustainability with Earth Observation & AI.](https://arxiv.org/abs/2507.09872) 
 
-unzip the psu.zip to current folder. 
+[![](im/poster_small.jpg)](im/poster.png)
 
-run train file
+## Demo on the PSU Landsat Dataset
 
-run test file ...
+To run the demo using the PSU Landsat dataset, follow these steps:
+
+1. **Unzip the Dataset**  
+   Extract the `psu.zip` file to the current working directory:
+   ```bash
+   unzip psu.zip
+   ```
+
+2. **Run the Training Scripts**  
+   Execute the following Python scripts in sequence:
+   ```bash
+   python demo1_psu_01_train.py
+   python demo1_psu_02_train.py
+   ```
+
+## More to come
+
+Stay tuned for updates!
 
 
 
-## more to come
-
-
-
+```bibtex
+@article{liu2025resolution,
+  title={Resolution revolution: A physics-guided deep learning framework for spatiotemporal temperature reconstruction},
+  author={Liu, Shengjie and Zhang, Lu and Wang, Siqin},
+  journal={arXiv preprint arXiv:2507.09872},
+  year={2025}
+}
+```
