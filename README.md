@@ -15,11 +15,11 @@ To run the demo using the PSU Landsat dataset, follow these steps:
    unzip psu.zip
    ```
 
-2. **Run the Training Scripts**  
+2. **Run the Demo Scripts**  
    Execute the following Python scripts in sequence:
    ```bash
    python demo1_psu_01_train.py
-   python demo1_psu_02_train.py
+   python demo1_psu_02_test.py
    ```
 
 ## More to come
