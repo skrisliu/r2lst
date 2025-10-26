@@ -29,10 +29,11 @@ Stay tuned for updates!
 
 
 ```bibtex
-@article{liu2025resolution,
+@inproceedings{liu2025resolution,
   title={Resolution revolution: A physics-guided deep learning framework for spatiotemporal temperature reconstruction},
   author={Liu, Shengjie and Zhang, Lu and Wang, Siqin},
-  journal={arXiv preprint arXiv:2507.09872},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2824--2833},
   year={2025}
 }
 ```
